@@ -170,20 +170,11 @@ body {
   .btn__sedan {
     color: #e38826;
   }
-  .btn__sedan:hover {
-    display: none;
-  }
   .btn__suvs {
     color: #006970;
   }
-  .btn__suvs:hover {
-    display: none;
-  }
   .btn__luxury {
     color: #004241;
-  }
-  .btn__luxury:hover {
-    display: none;
   }
 }
 /*# sourceMappingURL=styles.css.map */
