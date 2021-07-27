@@ -89,30 +89,12 @@ body {
   color: #e38826;
 }
 
-.container .btn__sedan:hover {
-  background-color: #e38826;
-  color: rgba(255, 255, 255, 0.75);
-  cursor: pointer;
-}
-
 .container .btn__suvs {
   color: #006970;
 }
 
-.container .btn__suvs:hover {
-  background-color: #006970;
-  color: rgba(255, 255, 255, 0.75);
-  cursor: pointer;
-}
-
 .container .btn__luxury {
   color: #004241;
-}
-
-.container .btn__luxury:hover {
-  background-color: #004241;
-  color: rgba(255, 255, 255, 0.75);
-  cursor: pointer;
 }
 
 .attribution {
@@ -166,15 +148,39 @@ body {
   }
 }
 
-@media screen and (max-width: 999px) {
-  .btn__sedan {
+@media screen and (min-width: 1000px) {
+  .container button {
+    margin-top: 1rem;
+    margin-left: 0.3rem;
+    padding: 1rem 2.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.75);
+    border-radius: 25px;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+  }
+  .container .btn__sedan {
     color: #e38826;
   }
-  .btn__suvs {
+  .container .btn__sedan:hover {
+    background-color: #e38826;
+    color: rgba(255, 255, 255, 0.75);
+    cursor: pointer;
+  }
+  .container .btn__suvs {
     color: #006970;
   }
-  .btn__luxury {
+  .container .btn__suvs:hover {
+    background-color: #006970;
+    color: rgba(255, 255, 255, 0.75);
+    cursor: pointer;
+  }
+  .container .btn__luxury {
     color: #004241;
+  }
+  .container .btn__luxury:hover {
+    background-color: #004241;
+    color: rgba(255, 255, 255, 0.75);
+    cursor: pointer;
   }
 }
 /*# sourceMappingURL=styles.css.map */

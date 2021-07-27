@@ -83,28 +83,13 @@ body {
   }
   .btn__sedan {
     color: $bright-orange;
-    &:hover {
-      background-color: $bright-orange;
-      color: $transparent-white;
-      cursor: pointer;
-    }
   }
 
   .btn__suvs {
     color: $dark-cyan;
-    &:hover {
-      background-color: $dark-cyan;
-      color: $transparent-white;
-      cursor: pointer;
-    }
   }
   .btn__luxury {
     color: $very-dark-cyan;
-    &:hover {
-      background-color: $very-dark-cyan;
-      color: $transparent-white;
-      cursor: pointer;
-    }
   }
 }
 
@@ -155,20 +140,41 @@ body {
   }
 }
 
-@media screen and (max-width: 999px) {
-  .btn__sedan {
-    color: $bright-orange;
-   
-  }
+@media screen and (min-width: 1000px) {
+  .container {
+    button {
+      margin-top: 1rem;
+      margin-left: 0.3rem;
+      padding: 1rem 2.5rem;
+      border: 1px solid $transparent-white;
+      border-radius: 25px;
+      font-family: $paragraph-font;
+      font-weight: 400;
+    }
+    .btn__sedan {
+      color: $bright-orange;
+      &:hover {
+        background-color: $bright-orange;
+        color: $transparent-white;
+        cursor: pointer;
+      }
+    }
 
-  .btn__suvs {
-    color: $dark-cyan;
-
-    
-  }
-  .btn__luxury {
-    color: $very-dark-cyan;
-
-  
+    .btn__suvs {
+      color: $dark-cyan;
+      &:hover {
+        background-color: $dark-cyan;
+        color: $transparent-white;
+        cursor: pointer;
+      }
+    }
+    .btn__luxury {
+      color: $very-dark-cyan;
+      &:hover {
+        background-color: $very-dark-cyan;
+        color: $transparent-white;
+        cursor: pointer;
+      }
+    }
   }
 }
