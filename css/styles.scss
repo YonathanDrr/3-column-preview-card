@@ -158,7 +158,6 @@ body {
 @media screen and (max-width: 999px) {
   .btn__sedan {
     color: $bright-orange;
-    cursor: pointer;
     &:hover {
       display: none;
     }
@@ -166,7 +165,6 @@ body {
 
   .btn__suvs {
     color: $dark-cyan;
-    cursor: pointer;
 
     &:hover {
       display: none;
@@ -174,7 +172,6 @@ body {
   }
   .btn__luxury {
     color: $very-dark-cyan;
-    cursor: pointer;
 
     &:hover {
       display: none;
