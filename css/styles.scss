@@ -89,6 +89,7 @@ body {
       cursor: pointer;
     }
   }
+
   .btn__suvs {
     color: $dark-cyan;
     &:hover {
@@ -129,13 +130,13 @@ body {
       padding: 3rem 5rem;
       width: 27rem;
 
-      p{
-          margin-bottom: 6rem;
+      p {
+        margin-bottom: 6rem;
       }
     }
     .img__icon {
-        margin-top: 1rem;
-      }
+      margin-top: 1rem;
+    }
 
     .card__sedan {
       border-radius: 10px 0 0 10px;
@@ -149,7 +150,34 @@ body {
       border-radius: 0 10px 10px 0;
     }
     button {
-        margin-bottom: 1rem;
-      }
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+@media screen and (max-width: 999px) {
+  .btn__sedan {
+    color: $bright-orange;
+    cursor: pointer;
+    &:hover {
+      display: none;
+    }
+  }
+
+  .btn__suvs {
+    color: $dark-cyan;
+    cursor: pointer;
+
+    &:hover {
+      display: none;
+    }
+  }
+  .btn__luxury {
+    color: $very-dark-cyan;
+    cursor: pointer;
+
+    &:hover {
+      display: none;
+    }
   }
 }

@@ -165,4 +165,28 @@ body {
     margin-bottom: 1rem;
   }
 }
+
+@media screen and (max-width: 999px) {
+  .btn__sedan {
+    color: #e38826;
+    cursor: pointer;
+  }
+  .btn__sedan:hover {
+    display: none;
+  }
+  .btn__suvs {
+    color: #006970;
+    cursor: pointer;
+  }
+  .btn__suvs:hover {
+    display: none;
+  }
+  .btn__luxury {
+    color: #004241;
+    cursor: pointer;
+  }
+  .btn__luxury:hover {
+    display: none;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
